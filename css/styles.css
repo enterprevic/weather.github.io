@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Mono', monospace;
+
+
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: url(/images/View-of-Cala-dHort-beach-with-sunbeds-and-umbrellas-and-beautiful-azure-blue-sea-water-Ibiza-island-Spain-1080x675.jpeg);
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-width: 720px;
+    outline: none;
+    
+}
+.locationTimezone, #map{
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+}
+input, button
+{
+    color: black;
+    padding: 10px;
+    outline: none;
+    border: none;
+    margin: 10px;
+    border-radius: 10px;
+    font-family: sans-serif;
+}
+
+button{
+    background: #ddd;
+}
+
+button:hover{
+   cursor: ;
+}
+
+#map{
+    width: 500px;
+    height: 500px;
+}
+
+.location,
+.temperature {
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+#icon{
+    background-color: white;
+    opacity: 0.5;
+    border-radius: 5px;
+}
+
+.temperature {
+    flex-direction: column;
+}
+
+.degree-section {
+    display: flex;
+    align-items: center;
+}
+
+.degree-section span {
+    margin: 10px;
+    font-size: 30px;
+}
+
+.degree-section h2 {
+    font-size: 30px;
+}

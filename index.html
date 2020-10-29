@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather APP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css">
+
+    
+
+    
+
+    
+</head>
+<body id="bodytext">
+   <div class="location">
+     
+     <div id="icon">
+       <img id="wicon" src="" alt="Weather icon" width="50" height="50">
+       </div>
+      <div>
+       <h1 class="locationTimezone">Timezone</h1>
+       </div>
+       
+       <div class="location-search">
+         <input type="search" id="search-location" placeholder="Input your city"><br>
+         <button id="search-button">Submit</button>
+     </div>
+       
+   </div>
+   <div id="map"></div>
+    <div class="temperature">
+       <div class="degree-section">
+        <h2 class="temperatureDegree">Loading</h2>
+        <span id="temperatureSpan">&deg;F</span>
+        
+        </div>
+        <div class="temperatureDescription">It's cold</div>
+    </div>
+    <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyDwqD5VH9EfIVfYJ-668GmBsp2l-cDVvjc"></script> 
+    <script src="/js/script.js"></script>
+</body>
+</html>
